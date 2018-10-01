@@ -1,0 +1,289 @@
+* {
+
+	-webkit-box-sizing: border-box;
+
+	box-sizing: border-box;
+
+}
+
+.flex {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+html {
+	background-color: black;
+
+}
+
+
+body {
+	font-size: 16px;
+	color: #333333FF;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: Helvetica, Arial, sans-serif;
+	/* font-family: Georgia, 'Times New Roman', Times, serif; */
+	background-color: rgba(222, 222, 222, 1.);
+	margin: 0 auto;
+	width: 60%;
+	background-color: white;
+}
+
+.container {
+	width: 860px;
+	margin: 0 auto;
+	max-width: 70%;
+	position: relative;
+
+}
+
+.header {
+
+	position: relative;
+	border-bottom: 2px solid black;
+	margin: 0;
+
+}
+
+.title {
+	padding: 40px 0;
+}
+
+.title>h1,
+.title>p {
+	margin: 10px 0;
+	color: #484848;
+	font-weight: lighter;
+}
+
+.title .first-letter {
+	color: rgb(0, 0, 0);
+	font-size: 200%;
+	font-weight: 900;
+	letter-spacing: -8px;
+}
+
+.title h1 {
+	border-bottom: 1px solid #ababab;
+
+}
+
+.title p {}
+
+.navigation ul {
+	padding: 0;
+}
+
+.navigation li {
+
+	list-style-type: none;
+
+}
+
+.navigation a {
+	text-decoration: none;
+	display: inline-block;
+	float: left;
+	color: #ababab;
+	padding: 10px 20px;
+	border: 2px solid black;
+	border-bottom: none;
+	margin-right: 5px;
+	display: block;
+}
+
+.navigation a:hover {
+	color: #FFF;
+	background-color: black;
+	border: 2px solid black;
+	border-bottom: none;
+}
+
+.navigation .active {
+	color: #FFF;
+	border: 2px solid black;
+	background-color: black;
+	border-bottom: none;
+}
+
+
+.login {
+	position: absolute;
+	top: 20px;
+	right: 0px;
+	/*	width: 33%;
+	*/
+}
+
+.login form {
+	display: inline;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 33%;
+	box-sizing: border-box;
+}
+
+.login input {
+	padding: 5px 20px;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	height: 40px;
+	outline-color: black
+}
+
+input[type="submit"] {
+	color: #fff;
+	background-color: black;
+	border: 3px solid black;
+	font-weight: bolder;
+	outline-color: black;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+
+.content {
+	border-left: 2px solid #9A9A9A;
+	border-bottom: 2px solid #9A9A9A;
+	font-size: 90.9%;
+	padding-left: 20px;
+	padding-bottom: 30px;
+	border-top: 2px solid #9A9A9A;
+	margin-top: 70px;
+	text-align: justify;
+
+}
+
+.content .main {
+	width: 66%;
+	float: left;
+	padding-right: 30px;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	line-height: 1.5;
+}
+
+.figure {
+	max-width: 100%;
+	position: relative;
+}
+
+.caption {
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	position: absolute;
+	bottom: 0;
+	color: #fff;
+	text-align: center;
+	background-color: #0000009d;
+	padding: 15px;
+	font-size: 1.1em;
+}
+
+img {
+	max-width: 100%;
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	display: block;
+}
+
+.content .aside {
+	width: 33%;
+	float: right;
+
+}
+
+.content .aside p {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	background-color: #9A9A9A;
+	padding: 30px;
+	color: #FFF;
+	font-size: 80%;
+	line-height: 1.3;
+	margin-top: 0;
+}
+
+.aside .sign {
+	margin-top: 40px;
+	background-color: #efefef;
+	background: #efefef url("https://picsum.photos/g/200/300/?random");
+	background-size: cover;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	border: 1px solid black;
+}
+
+.aside .sign::after {
+	background: #efefef url("https://source.unsplash.com/4cNNenEn54c");
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+
+}
+
+.aside .sign input {
+	display: block;
+	width: 70%;
+	margin: 30px auto;
+	max-width: 100%;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 5px 30px;
+	border: 1px solid black;
+	outline-color: black;
+
+}
+
+.footer {
+	text-align: center;
+	font-size: 80%;
+	color: #969696;
+	padding: 3px;
+}
+
+.social {
+	position: fixed;
+	top: 40vh;
+	left: 1%;
+	font-size: 2em;
+	color: black;
+	margin-right: 10%;
+
+}
+
+.social i {
+	display: block;
+	margin-bottom: 10px;
+	color: black;
+	padding: 15px;
+	border-radius: 5px;
+	background-color: #fff;
+	border: 2px solid #fff;
+}
+
+.social i:hover {
+	background-color: black;
+	color: #fff;
+	border: 2px solid #fff;
+}
+
+.group:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.hidden {
+	position: relative;
+	width: 0;
+	height: 0;
+	visibility: hidden;
+}
+
+.new {
+	color: black;
+}
