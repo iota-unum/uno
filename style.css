@@ -5,6 +5,9 @@
 	box-sizing: border-box;
 
 }
+.github-test {
+	color: red;
+}
 
 .flex {
 	display: -webkit-box;
