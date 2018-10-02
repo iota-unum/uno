@@ -1,6 +1,9 @@
 .navbar {
     padding-left: 0;
 }
+button:focus {
+    outline: none;
+}
 .navbar-toggler .fa.fa-bars {
     color: #ff3c00;
     font-size: 2em;
