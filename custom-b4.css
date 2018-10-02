@@ -1,10 +1,7 @@
 .navbar {
     padding-left: 0;
 }
-.navbar-toggler {
-    color: #ff6600;
+.navbar-toggler .fa.fa-bars {
+    color: #ff3c00;
     font-size: 2em;
-}
-.navbar-toggler:hover {
-    color: red;
 }
