@@ -1,3 +1,10 @@
 .navbar {
     padding-left: 0;
 }
+.navbar-toggler {
+    color: #ff6600;
+    font-size: 2em;
+}
+.navbar-toggler:hover {
+    color: red;
+}
