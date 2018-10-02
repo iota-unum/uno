@@ -313,7 +313,16 @@ img {
 .fa-home:hover {
 	opacity: 1;
 }
+.dropdown-item {
+	background: #666;
+}
+.dropdown-item:hover {
+	background: #999;
+}
 
+.dropdown-menu {
+	background: #666;
+}
 
 
 
