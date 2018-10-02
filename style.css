@@ -289,3 +289,33 @@ img {
 .new {
 	color: rgb(91, 41, 230);
 }
+ .navbar  {
+	padding-bottom: 0px;
+}
+.navbar-nav {
+	margin: 0 auto;
+	
+
+}
+.nav-link {
+	background: red;
+	border: 1px solid red;
+	margin-bottom: none;
+	display: block;
+	margin-bottom: 0px;
+	
+}
+
+.navbar-brand .fa-home{
+	color: rgb(0, 38, 255);
+	opacity: 0.8;
+}
+.fa-home:hover {
+	opacity: 1;
+}
+
+
+
+
+
+
