@@ -1,0 +1,22 @@
+html, body {
+    height: 100vh;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-color: rgb(190, 190, 190);
+
+}
+#container{
+    display: flex;
+    flex-direction: column-reverse;
+    height: 300px;
+    
+   
+}
+.mutable {
+    fill: red;
+}
+.buttons {
+    text-align: center;
+    margin-top: 10px;
+}
