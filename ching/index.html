@@ -1,35 +1,128 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    
 </head>
-
 <body>
-    <div class="wrapper">
-        <div id="container">
+    
+<div class="container">
+    <h1 class="text-center mt-5">The I Ching Oracle</h1>
+    <div class="row mt-5">
+        <div class="col-md-4 text-center">
+            <!-- svg lines -->
+            <div class="hexagram h-50 d-flex flex-column-reverse mt-5 ">
+                <!-- <div class="mutable lines" data-position="1">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="20" width="150">
+                        <path d="M-.969-.34H71.67v23.246H-.969zM79.419-.34h72.639v23.246H79.419z"></path>
+                    </svg>
+                </div>
+                <div class="mutable lines" data-position="2">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="20" width="150">
+                        <path d="M-.969-.34H71.67v23.246H-.969zM79.419-.34h72.639v23.246H79.419z"></path>
+                    </svg>
+                </div>
+                <div class=" lines" data-position="3">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="20" width="150">
+                        <path d="M-.969-.34H71.67v23.246H-.969zM79.419-.34h72.639v23.246H79.419z"></path>
+                    </svg>
+                </div>
+                <div class=" lines" data-position="4">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="20" width="150">
+                        <path d="M-.969-.34H71.67v23.246H-.969zM79.419-.34h72.639v23.246H79.419z"></path>
+                    </svg>
+                </div>
+                <div class=" lines" data-position="5">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="20" width="150">
+                        <path d="M-.969-.34H71.67v23.246H-.969zM79.419-.34h72.639v23.246H79.419z"></path>
+                    </svg>
+                </div>
+                <div class="mutable lines" data-position="6">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="20" width="150">
+                        <path d="M-.969-.34H71.67v23.246H-.969zM79.419-.34h72.639v23.246H79.419z"></path>
+                    </svg>
+                </div> -->
+            </div>
+            <div class="buttons mt-5">
+                <button class="btn btn-primary cast">cast</button>
+                <button class="btn reset">reset</button>
+            </div>
+            <!-- buttons -->
         </div>
-        <div class="buttons">
-            <button onclick="handlers.cast()">Cast</button>
-            <button class="reset" onclick="handlers.reset()">Reset</button>
+        <div class="col-md-4 text-center">
+            <!-- svg lines -->
+            <div class="derived h-50 d-flex flex-column-reverse mt-5 ">
+                <!-- <div class="mutable lines" data-position="1">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="20" width="150">
+                        <path d="M-.969-.34H71.67v23.246H-.969zM79.419-.34h72.639v23.246H79.419z"></path>
+                    </svg>
+                </div>
+                <div class="mutable lines" data-position="2">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="20" width="150">
+                        <path d="M-.969-.34H71.67v23.246H-.969zM79.419-.34h72.639v23.246H79.419z"></path>
+                    </svg>
+                </div>
+                <div class=" lines" data-position="3">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="20" width="150">
+                        <path d="M-.969-.34H71.67v23.246H-.969zM79.419-.34h72.639v23.246H79.419z"></path>
+                    </svg>
+                </div>
+                <div class=" lines" data-position="4">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="20" width="150">
+                        <path d="M-.969-.34H71.67v23.246H-.969zM79.419-.34h72.639v23.246H79.419z"></path>
+                    </svg>
+                </div>
+                <div class=" lines" data-position="5">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="20" width="150">
+                        <path d="M-.969-.34H71.67v23.246H-.969zM79.419-.34h72.639v23.246H79.419z"></path>
+                    </svg>
+                </div>
+                <div class="mutable lines" data-position="6">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="20" width="150">
+                        <path d="M-.969-.34H71.67v23.246H-.969zM79.419-.34h72.639v23.246H79.419z"></path>
+                    </svg>
+                </div> -->
+            </div>
+            <div class="buttons mt-5">
+                <button class="btn btn-primary derived-hex">read text</button>
+                <button class="btn reset">reset</button>
+            </div>
+            <!-- buttons -->
+        </div>
+        <div class="col-sm-4 mt-5 pt-5 ">
+            <div class="hexagramText ">
+                <h1>
+                    <span class="chinese-symbol">乾 天 </span>
+                    <span>The Creative</span>
+                </h1>
+                <a href="">definizione</a>
 
+                <a href="">descrizione</a>
+
+                <p class="lead">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt
+                    sapiente recusandae saepe excepturi eum corporis vitae soluta
+                    consequuntur nam esse?
+                </p>
+            </div>
+            <!-- <div class="showSingleLinetext">
+        <h2>Line 3</h2>
+        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio molestias, repellendus harum dignissimos eos ad, sit blanditiis ab quasi quod rerum dicta sunt modi numquam laborum inventore corrupti unde possimus?</p>
+    </div> -->
         </div>
     </div>
+</div>
 
-
-
-
-
-
-
-
-
-
-    <script src="main.js"></script>
+    <script src="hexagram.js"></script>
+    <script src="view.js"></script>
+    <script src="cast.js"></script>
+    <script src="app.js"></script>
+    
 </body>
-
 </html>

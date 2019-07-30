@@ -1,22 +1,29 @@
-html, body {
-    height: 100vh;
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    background-color: rgb(190, 190, 190);
 
+body {
+    background-color: #eef
 }
-#container{
-    display: flex;
-    flex-direction: column-reverse;
-    height: 300px;
-    
-   
+
+.lines {
+    margin: 5px;
+    fill: #555;
 }
+
 .mutable {
-    fill: red;
+    fill: rgb(248, 72, 72);
 }
-.buttons {
-    text-align: center;
-    margin-top: 10px;
+
+.row {
+    height: 400px
+}
+
+.chinese-symbol {
+    font-weight:bold;
+}
+
+
+.chinese-symbol {
+    font-family: 'Noto Serif TC', serif;
+    font-weight: 700;
+    font-size: 1.5em;
+    color: #444;
 }
