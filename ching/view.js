@@ -43,6 +43,7 @@ class UI {
 
   
     `;
+    return this
   }
 
   showSingleLine(data, num, lineText) {
