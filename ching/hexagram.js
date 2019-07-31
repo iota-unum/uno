@@ -46,8 +46,8 @@ class Hexagram {
     };
   }
    getText = async (binary) => {
-    const url1 = "../DATA/hexagrams.json";
-    const url2 = "../DATA/HexIndex.json";
+    const url1 = "DATA/hexagrams.json";
+    const url2 = "DATA/HexIndex.json";
     const data1 = await fetch(url1)
       .then(data => data.json())
       .then(json => json[0])
@@ -76,7 +76,7 @@ class Hexagram {
     }
   }
   getLine = async (hexNum, lineNum) => {
-    const url = "../DATA/changing-lines.json";
+    const url = "DATA/changing-lines.json";
     const data = await fetch(url)
       .then(data => data.json())
       .then(json => json[0][`${hexNum}_${lineNum}`])
