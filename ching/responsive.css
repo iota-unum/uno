@@ -1,0 +1,53 @@
+.lines {
+    margin-top: 5px;
+    fill: #666;
+}
+
+.mutable {
+    fill:#6eb87f;
+}
+
+.row{
+    height:100vh;
+}
+.text-area {
+    height: 50vh;
+    overflow: auto;
+}
+.lines-area {
+    height: 50%
+}
+
+
+
+.little-hex {
+    color: #777;
+}
+
+.chinese-symbol {
+    font-family: 'Noto Serif TC', serif;
+    font-weight: 500;
+    color: #444;
+}
+
+.title h1{
+    font-size: 1.5rem;
+    color: #6eb87f;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+
+.description {
+    font-size: 12px;
+}
+
+.large-title, .small-title {
+    color: #6eb87f;
+}
+.small-title {
+    /* color: #6eb87f; */
+    font-size: 0.2rem
+}
+
+

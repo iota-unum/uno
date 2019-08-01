@@ -3,6 +3,13 @@ class Hexagram {
     this.hexArray = hexArray;
     this.originalHexagram = this.createOrignalHexagram(hexArray);
     this.derivedHexagram = this.createDerivedHexagram(hexArray);
+    return this
+    
+  }
+
+
+  async getHex(){
+    return this
   }
 
   createOrignalHexagram() {
@@ -13,11 +20,13 @@ class Hexagram {
       .map(line => (line.isYang ? 1 : 0))
       .reverse()
       .join("");
-
+    const data = this.getText(binary)
     return {
       binary,
-      originalArray
+      originalArray,
+      data
     };
+
   }
 
   createDerivedHexagram() {
@@ -40,10 +49,13 @@ class Hexagram {
       .reverse()
       .join("");
     // console.log(this);
+    const data = this.getText(binary);
     return {
       binary,
-      derivedArray
+      derivedArray,
+      data
     };
+    
   }
    getText = async (binary) => {
     const url1 = "DATA/hexagrams.json";

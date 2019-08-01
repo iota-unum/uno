@@ -5,12 +5,13 @@ class UI {
     this.yingSVG = `<svg xmlns="http://www.w3.org/2000/svg" height="20" width="150"><path d="M-.969-.34H71.67v23.246H-.969zM79.419-.34h72.639v23.246H79.419z" /></svg>`;
   }
 
-  showLines(hexArray) {
+  showLines(hexArray, klass) {
     const lines = hexArray.map(line => {
       const yang = line.isYang ? this.yangSVG : this.yingSVG;
       const mutable = line.isMutable ? "mutable" : "";
-
-      return `<div class="${mutable} lines" data-position=${
+    
+     
+      return `<div class="${mutable} ${klass} lines" data-position=${
         line.position
       }>${yang}</div>`;
     });
@@ -72,6 +73,6 @@ const {
        </div>
 
     <h4>Line ${num} </h4>
-    <p class="lead">${lineText}</p>`;
+    <p>${lineText}</p>`;
   }
 }
